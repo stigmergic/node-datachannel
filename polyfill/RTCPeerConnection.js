@@ -4,7 +4,7 @@ import RTCDataChannel from './RTCDataChannel.js';
 import RTCIceCandidate from './RTCIceCandidate.js';
 import { RTCDataChannelEvent, RTCPeerConnectionIceEvent } from './Events.js';
 import RTCSctpTransport from './RTCSctpTransport.js';
-import DOMException from 'node-domexception';
+import 'node-domexception';
 
 export default class _RTCPeerConnection extends EventTarget {
     #peerConnection;
